@@ -17,6 +17,10 @@ export default function Page() {
             </a>
             , brought to you by Vercel.
           </p>
+          <p className="text-gray-600">
+            This example is a starting point for a Next.js dashboard application. It includes
+            authentication, protected routes, and more.
+          </p>
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
